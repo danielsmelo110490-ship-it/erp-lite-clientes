@@ -1,0 +1,4 @@
+[
+  { "id": 1, "nome": "João Silva", "empresa": "Tech Solutions", "email": "joao@empresa.com" },
+  { "id": 2, "nome": "Maria Souza", "empresa": "Indústria Alfa", "email": "maria@alfa.com.br" }
+]
