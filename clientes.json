@@ -17,4 +17,3 @@ async function carregarClientes() {
     });
 
     console.log("Clientes carregados com sucesso ✔");
-  } catch (err)
