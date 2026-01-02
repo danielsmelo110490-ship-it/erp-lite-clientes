@@ -21,5 +21,3 @@ async function carregarClientes() {
     console.error("Erro ao carregar clientes:", err);
   }
 }
-
-carregarClientes();
