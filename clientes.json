@@ -2,3 +2,24 @@
   { "id": 1, "nome": "João Silva", "empresa": "Tech Solutions", "email": "joao@empresa.com" },
   { "id": 2, "nome": "Maria Souza", "empresa": "Indústria Alfa", "email": "maria@alfa.com.br" }
 ]
+async function carregarClientes() {
+  try {
+    const response = await fetch("clientes.json");
+    const clientes = await response.json();
+
+    const lista = document.getElementById("lista-clientes");
+    lista.innerHTML = "";
+
+    clientes.forEach(cli => {
+      const item = document.createElement("li");
+      item.textContent = `${cli.id} - ${cli.nome} (${cli.email})`;
+      lista.appendChild(item);
+    });
+
+    console.log("Clientes carregados com sucesso ✔");
+  } catch (err) {
+    console.error("Erro ao carregar clientes:", err);
+  }
+}
+
+carregarClientes();
