@@ -27,8 +27,6 @@
   <script>
     let clientes = [];
 
-    async function carregar() {
-      try {
         const res = await fetch('clientes.json');
         clientes = await res.json();
         render();
@@ -63,7 +61,7 @@
     });
 <script src="script.js"></script>
 
-    carregar();
+    carregarClientes();
   </script>
 
 </body>
