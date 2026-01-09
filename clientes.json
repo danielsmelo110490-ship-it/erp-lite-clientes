@@ -1,9 +1,6 @@
 [
   { "id": 1, "nome": "João Silva", "empresa": "Tech Solutions", "email": "joao@empresa.com" },
   { "id": 2, "nome": "Maria Souza", "empresa": "Indústria Alfa", "email": "maria@alfa.com.br"
-CREATE DATABASE erp_lite;
-
-USE erp_lite;
 
 CREATE TABLE clientes (
     id INT AUTO_INCREMENT PRIMARY KEY,
