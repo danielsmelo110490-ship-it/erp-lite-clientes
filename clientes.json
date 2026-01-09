@@ -1,8 +1,19 @@
-
-    [
-  { "id": 1, "nome": "Daniel Melo", "empresa": "Retífica Pro", "email": "daniel@exemplo.com", "telefone": "1199999-0001" },
-  { "id": 2, "nome": "Ana Souza", "empresa": "Cloud Tech", "email": "ana@exemplo.com", "telefone": "2198888-1234" },
-  { "id": 3, "nome": "Marcos Silva", "empresa": "Motores Brasil", "email": "marcos@exemplo.com", "telefone": "3197777-4321" },
-  { "id": 4, "nome": "Juliana Costa", "empresa": "Weld Solutions", "email": "juliana@exemplo.com", "telefone": "4796666-5555" },
-  { "id": 5, "nome": "Carlos Mendes", "empresa": "Forex Labs", "email": "carlos@exemplo.com", "telefone": "5195555-9876" }
+clientes [
+    {"id": 1,
+        "nome" : "Daniel Melo" ,
+        "empresa" : "Retifica pro" ,
+        "email" : "danielsmello@gmail.com" ,
+        "telefone" : "51987564327"},
+    {
+        "id": 2,
+        "nome" : "Paulo Guedes" ,
+        "empresa" : "mecanica paulão" ,
+        "email" : "pauloguedes@gmail.com" ,
+        "telefone" : "51987563468"},
+    {
+        "id" : 3,
+        "nome" : "Marcos Silva" ,
+        "empresa" : "Marção autocenter" ,
+        "email" : "marcossilva@gmail.com" ,
+        "telefone" : "51988345678"}
 ]
