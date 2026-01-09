@@ -56,3 +56,19 @@ function filtrarClientes() {
 }
 
 carregarClientes();
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Empresa</th>
+      <th>Email</th>
+      <th>Telefone</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody id="clientesBody"></tbody>
+</table>
+<input id="fNome" oninput="filtrarClientes()" placeholder="Nome do Cliente">
+<input id="fEmpresa" oninput="filtrarClientes()" placeholder="Empresa">
+<input id="fEmail" oninput="filtrarClientes()" placeholder="E-mail">
