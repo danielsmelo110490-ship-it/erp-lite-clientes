@@ -72,3 +72,18 @@ carregarClientes();
 <input id="fNome" oninput="filtrarClientes()" placeholder="Nome do Cliente">
 <input id="fEmpresa" oninput="filtrarClientes()" placeholder="Empresa">
 <input id="fEmail" oninput="filtrarClientes()" placeholder="E-mail">
+
+    fetch("clientes.json")
+.then(res => res.json()).
+    .then(clientes => { const lista =
+        document.getElementByid("lista-clientes");
+
+          clientes.forEach(c => {
+              const li =
+                  document.createElement("li");
+              li.textContent = '${c.nome} - $
+              {c.empresa} - ${c.email} ' ;
+                  lista.appenChild(li);
+          });
+                      })
+.catch(err => console.error("error ao carregar clientes:", err));
