@@ -1,4 +1,8 @@
-[
-  { "id": 1, "nome": "João Silva", "empresa": "Tech Solutions", "email": "joao@empresa.com" },
-  { "id": 2, "nome": "Maria Souza", "empresa": "Indústria Alfa", "email": "maria@alfa.com.br"
-    
+
+    [
+  { "id": 1, "nome": "Daniel Melo", "empresa": "Retífica Pro", "email": "daniel@exemplo.com", "telefone": "1199999-0001" },
+  { "id": 2, "nome": "Ana Souza", "empresa": "Cloud Tech", "email": "ana@exemplo.com", "telefone": "2198888-1234" },
+  { "id": 3, "nome": "Marcos Silva", "empresa": "Motores Brasil", "email": "marcos@exemplo.com", "telefone": "3197777-4321" },
+  { "id": 4, "nome": "Juliana Costa", "empresa": "Weld Solutions", "email": "juliana@exemplo.com", "telefone": "4796666-5555" },
+  { "id": 5, "nome": "Carlos Mendes", "empresa": "Forex Labs", "email": "carlos@exemplo.com", "telefone": "5195555-9876" }
+]
